@@ -11,9 +11,8 @@ import com.capstone.project.repository.service.RecipeDaoRepository;
 public class RecipeService {
 @Autowired RecipeDaoRepository dao;
 
-public String createRecipe(Recipe r) {
-	dao.save(r);
-	return "La ricetta: "+r.getNome()+" è stata salvata";
+public Recipe createRecipe(Recipe r) {
+	return dao.save(r);	
 }
 public List<Recipe> getAllRecipe() {
 	return dao.findAll();
@@ -36,6 +35,10 @@ public String deleteAll() {
 }
 public List<Recipe> getRecipeByCategoria(String categoria){
 	return dao.getRecipeByCategoria(categoria);
+}
+public List<Recipe> createRecipe(List<Recipe> r) {
+	return dao.saveAll(r);
+
 }
 
 }

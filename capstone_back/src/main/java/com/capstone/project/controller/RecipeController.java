@@ -3,6 +3,7 @@ package com.capstone.project.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,6 +18,7 @@ import com.capstone.project.service.RecipeService;
 
 
 @RestController
+@CrossOrigin(maxAge=3600)
 @RequestMapping("/api/recipe")
 public class RecipeController {
 @Autowired RecipeService service;
@@ -35,10 +37,10 @@ public Recipe getRecipeById(@PathVariable Long id) {
 
 }
 @PostMapping
-public String createRecipe(@RequestBody Recipe r) {
-	service.createRecipe(r);
-	return "La ricetta: "+r.getNome()+" è stata salvata";
+public List<Recipe> createRecipe(@RequestBody List<Recipe> r) {
+	return service.createRecipe(r);
 }
+
 
 @PutMapping("/{id}")
 public String putRecipe(@RequestBody Recipe r) {

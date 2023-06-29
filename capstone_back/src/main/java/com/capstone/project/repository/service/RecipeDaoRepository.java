@@ -8,5 +8,6 @@ import com.capstone.project.model.Recipe;
 
 public interface RecipeDaoRepository extends JpaRepository<Recipe,Long> {
 	List<Recipe> getRecipeByCategoria(String categoria);
+
 }
 
