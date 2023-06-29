@@ -34,7 +34,6 @@ public Recipe getRecipeById(@PathVariable Long id) {
 	return service.findRecipeById(id);
 
 }
-
 @PostMapping
 public String createRecipe(@RequestBody Recipe r) {
 	service.createRecipe(r);
