@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(237, 237, 237);
+}
+
+/* NAVBAR */
+
+.form input {
+  width: 100%;
+  border: none;
+}
+.form {
+  background-color: white;
+  width: 60%;
+  border: 1.5px solid black;
+  padding: 0.5em;
+  border-radius: 20px;
+  outline: none;
+}
+.form input:focus {
+  outline: none;
+}
+.icon {
+  cursor: pointer;
+}
+.navIcon {
+  font-size: 30px;
+}
+.logo {
+  position: relative;
+  font-size: 35px;
+}
+.logo img {
+  right: 25px;
+  position: absolute;
+  width: 25px;
+}
+.login {
+  font-weight: bold;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(166, 189, 132);
+}
+.login:hover {
+  background-color: rgb(144, 193, 70);
+}
+.dropButton {
+  padding: 0 !important;
+  padding: 0.5em 1em !important;
+  font-weight: bold !important;
+  color: white !important;
+  background-color: rgb(166, 189, 132) !important;
+  border-radius: 20px !important;
+  border: none !important;
+}
+.dropButton:hover {
+  background-color: rgb(144, 193, 70) !important;
+}
+nav {
+  background-color: white;
+  top: 0;
+  position: sticky;
+  font-weight: bold;
+}
+.logo {
+  color: orange;
+}
+.logo span {
+  color: rgb(254, 194, 82);
+}
+
+/* RECIPE */
+
+.recipeCard {
+box-shadow: 0 0 15px -5px #000000;
+}
+
+.recipeCard img{
+  border-radius: 10px 0 0 10px;
+}
