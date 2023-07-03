@@ -26,7 +26,7 @@ const MyNav = () => {
           </div>
           <div className="form d-flex align-items-center">
             <input type="text" />
-            <BiSearchAlt2 className="icon fs-4" />
+            <BiSearchAlt2 className="icon fs-4 searchIcon" />
           </div>
           <div className="login mx-3 px-3 py-2">
             Login <BiLogIn className="light mx-1 fs-5" />
