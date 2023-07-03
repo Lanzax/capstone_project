@@ -1,8 +1,8 @@
-import { RECIPE } from "../Actions/action_profile"
+import { RECIPE } from "../action/action_profile"
 
 const initState = {
     user: {
-recipe:[]
+recipe:[ ]
     }
 }
 

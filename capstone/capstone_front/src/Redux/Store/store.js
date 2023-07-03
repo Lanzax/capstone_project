@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import mainProfile from "../Reducer/profilo";
+import mainProfile from "../reducer/profilo";
 
 
 const store = configureStore ({

@@ -1,13 +1,13 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 import { Provider } from 'react-redux';
-import store from './Redux/Store/store';
+import store from './redux/store/store';
 import MyNav from "./components/MyNav";
 import Jumbotron from "./components/Jumbotron";
-import Recipe from "./components/Recipe";
 import Container from "react-bootstrap/esm/Container";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomeBody from "./components/HomeBody";
+import Recipe from "./components/Recipe";
 
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
             <Route path='/recipe' element={
               <>
                 <Container>
-                  <Recipe />
+                  <Recipe/>
                 </Container>
               </>
             }

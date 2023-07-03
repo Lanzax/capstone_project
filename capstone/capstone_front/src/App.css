@@ -1,7 +1,9 @@
 body {
   background-color: #F7F6F8;
 }
-
+.dropdown-toggle::after {
+  display: none !important;
+}
 /* NAVBAR */
 
 .form input {
@@ -109,16 +111,16 @@ border-radius: 10px;
  font-size: 3em;
 font-style:oblique;
 }
-.pRecipe span{
-  border: 1px solid  #eeeeee ;
-  padding :0.5em 1em;
-  background-color: white;
-  border-radius: 20px;
-  cursor: pointer;
+.pRecipe .dropFilter{
+  border: 1px solid  #eeeeee !important;
+  padding :0.5em 1em !important;
+  background-color: white !important;
+  border-radius: 20px !important;
+  cursor: pointer !important;
 }
 .ic{
   color: orange;
 }
-.pRecipe span:hover{
-  border: 1px solid orange;
+.pRecipe .dropFilter:hover{
+  border: 1px solid orange !important;
 }
