@@ -1,14 +1,15 @@
-import { RECIPE } from "../action/action_profile"
+import { CATEGORY, RECIPE } from "../action/action_profile"
 
 const initState = {
     user: {
-recipe:[ ]
+        recipe: [],
+        category: []
     }
 }
 
 const mainProfile = (state = initState, action) => {
     switch (action.type) {
-        case RECIPE: 
+        case RECIPE:
             return {
                 ...state,
                 state: {
@@ -16,7 +17,14 @@ const mainProfile = (state = initState, action) => {
                     recipe: action.payload
                 }
             }
-
+        case CATEGORY:
+            return {
+                ...state,
+                state: {
+                    ...state.user,
+                    category: action.payload
+                }
+            }
 
         default: return state
     }

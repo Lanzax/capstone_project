@@ -10,7 +10,7 @@ const MyNav = () => {
       <Container fluid className="">
         <div className="navBar d-flex p-2 d-flex align-items-center justify-content-between">
           <Link
-            to="recipe"
+            to="category"
             style={{ color: "inherit", textDecoration: "inherit" }}>
             <div>
               <AiOutlineMenu className="navIcon icon" />

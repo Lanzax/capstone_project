@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 import { Provider } from 'react-redux';
-import store from './redux/store/store';
+import store from './Redux/Store/store';
 import MyNav from "./components/MyNav";
 import Jumbotron from "./components/Jumbotron";
 import Container from "react-bootstrap/esm/Container";
@@ -26,7 +26,7 @@ function App() {
             }
             />
 
-            <Route path='/recipe' element={
+            <Route path='/category' element={
               <>
                 <Container>
                   <Recipe/>
