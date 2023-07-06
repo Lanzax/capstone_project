@@ -1,0 +1,1787 @@
+[
+  {
+    "categoria": "primi",
+    "nome": "Spaghetti all'aglio, olio e peperoncino",
+    "ingredienti": [
+      "80g di spaghetti",
+      "1 spicchio d'aglio",
+      "2 cucchiai di olio d'oliva",
+      "1 peperoncino piccante",
+      "Prezzemolo q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Pasta al pomodoro fresco",
+    "ingredienti": ["80g di pasta", "2 pomodori freschi"],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Lasagne al ragù",
+    "ingredienti": [
+      "300g di pasta per lasagne",
+      "300g di ragù di carne",
+      "100g di parmigiano grattugiato"
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Tagliatelle alla bolognese",
+    "ingredienti": ["100g di tagliatelle", "200g di ragù alla bolognese"],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Risotto ai funghi",
+    "ingredienti": [
+      "200g di riso",
+      "200g di funghi porcini",
+      "1 cipolla",
+      "1 spicchio d'aglio",
+      "Brodo vegetale q.b.",
+      "Parmigiano grattugiato q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Gnocchi alla sorrentina",
+    "ingredienti": [
+      "500g di gnocchi",
+      "200g di mozzarella",
+      "500g di passata di pomodoro",
+      "Basilico q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Pasta al pesto genovese",
+    "ingredienti": [
+      "80g di pasta",
+      "50g di foglie di basilico",
+      "30g di pinoli",
+      "30g di parmigiano grattugiato",
+      "1 spicchio d'aglio",
+      "Olio extravergine d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Fettuccine Alfredo",
+    "ingredienti": [
+      "200g di fettuccine",
+      "100g di burro",
+      "100g di parmigiano grattugiato",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Rigatoni alla carbonara",
+    "ingredienti": [
+      "80g di rigatoni",
+      "100g di guanciale",
+      "2 uova",
+      "50g di pecorino romano grattugiato",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Penne all'arrabbiata",
+    "ingredienti": [
+      "80g di penne",
+      "1 spicchio d'aglio",
+      "1 peperoncino piccante",
+      "400g di pomodori pelati",
+      "Olio extravergine d'oliva q.b.",
+      "Prezzemolo q.b.",
+      "Sale q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Linguine allo scoglio",
+    "ingredienti": [
+      "80g di linguine",
+      "200g di frutti di mare (cozze, vongole, gamberetti)",
+      "1 spicchio d'aglio",
+      "Prezzemolo q.b.",
+      "Peperoncino q.b.",
+      "Olio extravergine d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Farfalle con zucchine e pancetta",
+    "ingredienti": [
+      "80g di farfalle",
+      "2 zucchine",
+      "100g di pancetta",
+      "1 spicchio d'aglio",
+      "Olio extravergine d'oliva q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Tortellini in brodo",
+    "ingredienti": [
+      "100g di tortellini",
+      "Brodo vegetale q.b.",
+      "Parmigiano grattugiato q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Pasta alla norma",
+    "ingredienti": [
+      "80g di pasta",
+      "1 melanzana",
+      "200g di pomodori pelati",
+      "30g di ricotta salata grattugiata",
+      "Basilico q.b.",
+      "Olio extravergine d'oliva q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Pappardelle ai funghi porcini",
+    "ingredienti": [
+      "80g di pappardelle",
+      "200g di funghi porcini",
+      "1 spicchio d'aglio",
+      "Prezzemolo q.b.",
+      "Olio extravergine d'oliva q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Ravioli al burro e salvia",
+    "ingredienti": [
+      "100g di ravioli",
+      "50g di burro",
+      "Foglie di salvia q.b.",
+      "Parmigiano grattugiato q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Pasta al salmone",
+    "ingredienti": [
+      "80g di pasta",
+      "150g di salmone affumicato",
+      "1 cucchiaio di panna",
+      "1 cucchiaio di vodka",
+      "Prezzemolo q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Cacio e pepe",
+    "ingredienti": [
+      "80g di spaghetti",
+      "50g di pecorino romano grattugiato",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Pasta con le sarde",
+    "ingredienti": [
+      "80g di pasta",
+      "4 sarde fresche",
+      "1 finocchio",
+      "50g di uvetta",
+      "20g di pinoli",
+      "Olio extravergine d'oliva q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Pasta alla puttanesca",
+    "ingredienti": [
+      "80g di pasta",
+      "200g di pomodori pelati",
+      "4 filetti di acciuga",
+      "1 cucchiaio di capperi",
+      "Olive nere q.b.",
+      "Prezzemolo q.b.",
+      "Peperoncino q.b.",
+      "Olio extravergine d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Penne alla vodka",
+    "ingredienti": [
+      "80g di penne",
+      "100ml di panna",
+      "50ml di vodka",
+      "200g di pomodori pelati",
+      "Olio extravergine d'oliva q.b.",
+      "Prezzemolo q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Pasta con le melanzane",
+    "ingredienti": [
+      "80g di pasta",
+      "1 melanzana",
+      "200g di pomodori pelati",
+      "50g di ricotta salata grattugiata",
+      "Basilico q.b.",
+      "Olio extravergine d'oliva q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Gnocchi al gorgonzola",
+    "ingredienti": [
+      "500g di gnocchi",
+      "100g di gorgonzola",
+      "100ml di panna",
+      "Noci q.b.",
+      "Prezzemolo q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Orecchiette alle cime di rapa",
+    "ingredienti": [
+      "80g di orecchiette",
+      "200g di cime di rapa",
+      "1 spicchio d'aglio",
+      "Peperoncino q.b.",
+      "Olio extravergine d'oliva q.b.",
+      "Sale q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Pasta ai frutti di mare",
+    "ingredienti": [
+      "80g di pasta",
+      "200g di frutti di mare (cozze, vongole, gamberetti)",
+      "1 spicchio d'aglio",
+      "Prezzemolo q.b.",
+      "Peperoncino q.b.",
+      "Olio extravergine d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Linguine al pesto di rucola",
+    "ingredienti": [
+      "80g di linguine",
+      "50g di rucola",
+      "30g di mandorle",
+      "30g di parmigiano grattugiato",
+      "1 spicchio d'aglio",
+      "Olio extravergine d'oliva q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Tortellini alla panna",
+    "ingredienti": [
+      "100g di tortellini",
+      "100ml di panna",
+      "Parmigiano grattugiato q.b.",
+      "Noce moscata q.b.",
+      "Prezzemolo q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Risotto alla milanese",
+    "ingredienti": [
+      "200g di riso",
+      "1 cipolla",
+      "50g di burro",
+      "100g di parmigiano grattugiato",
+      "Zafferano q.b.",
+      "Brodo vegetale q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Pasta alle olive",
+    "ingredienti": [
+      "80g di pasta",
+      "100g di olive nere",
+      "1 spicchio d'aglio",
+      "Olio extravergine d'oliva q.b.",
+      "Prezzemolo q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "primi",
+    "nome": "Pasta al limone",
+    "ingredienti": [
+      "80g di pasta",
+      "1 limone",
+      "50ml di panna",
+      "Parmigiano grattugiato q.b.",
+      "Prezzemolo q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Bistecca alla griglia",
+    "ingredienti": [
+      "1 bistecca di manzo",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Pollo al limone",
+    "ingredienti": [
+      "1 petto di pollo",
+      "1 limone",
+      "Prezzemolo q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Maiale in agrodolce",
+    "ingredienti": [
+      "200g di maiale a strisce",
+      "1 cipolla",
+      "1 peperone",
+      "2 cucchiai di aceto di vino bianco",
+      "2 cucchiai di zucchero",
+      "2 cucchiai di salsa di soia",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Salmone al forno",
+    "ingredienti": [
+      "1 filetto di salmone",
+      "1 limone",
+      "Prezzemolo q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Spiedini di gamberi",
+    "ingredienti": [
+      "8 gamberi",
+      "1 limone",
+      "Prezzemolo q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Tonno alla griglia",
+    "ingredienti": [
+      "1 filetto di tonno",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Scaloppine al limone",
+    "ingredienti": [
+      "4 fettine di vitello",
+      "1 limone",
+      "Farina q.b.",
+      "Burro q.b.",
+      "Prezzemolo q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Calamari fritti",
+    "ingredienti": [
+      "200g di calamari",
+      "Farina q.b.",
+      "Olio per friggere q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Arrosto di maiale",
+    "ingredienti": [
+      "800g di maiale",
+      "Rosmarino q.b.",
+      "Aglio q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Bistecca di maiale",
+    "ingredienti": [
+      "1 bistecca di maiale",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Filetto di merluzzo al forno",
+    "ingredienti": [
+      "2 filetti di merluzzo",
+      "1 limone",
+      "Prezzemolo q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Polpette al sugo",
+    "ingredienti": [
+      "300g di carne macinata",
+      "1 uovo",
+      "Pane grattugiato q.b.",
+      "1 cipolla",
+      "400g di passata di pomodoro",
+      "Basilico q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Agnello al forno",
+    "ingredienti": [
+      "800g di coscia di agnello",
+      "Rosmarino q.b.",
+      "Aglio q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Gamberoni in padella",
+    "ingredienti": [
+      "8 gamberoni",
+      "Aglio q.b.",
+      "Peperoncino q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Filetto di manzo al pepe verde",
+    "ingredienti": [
+      "1 filetto di manzo",
+      "Pepe verde q.b.",
+      "Burro q.b.",
+      "Sale q.b.",
+      "Brandy q.b.",
+      "Panna q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Sogliola al limone",
+    "ingredienti": [
+      "2 sogliole",
+      "1 limone",
+      "Farina q.b.",
+      "Burro q.b.",
+      "Prezzemolo q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Porchetta",
+    "ingredienti": [
+      "1 kg di maiale",
+      "Rosmarino q.b.",
+      "Aglio q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Galletto al forno",
+    "ingredienti": [
+      "1 galletto",
+      "Rosmarino q.b.",
+      "Aglio q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Scampi alla griglia",
+    "ingredienti": [
+      "8 scampi",
+      "Prezzemolo q.b.",
+      "Aglio q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Cotoletta alla milanese",
+    "ingredienti": [
+      "1 cotoletta di vitello",
+      "Farina q.b.",
+      "Uova q.b.",
+      "Pangrattato q.b.",
+      "Sale e pepe q.b.",
+      "Burro q.b.",
+      "Limone q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Branzino al cartoccio",
+    "ingredienti": [
+      "1 branzino",
+      "1 limone",
+      "Prezzemolo q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Gnocchi di patate al ragù",
+    "ingredienti": [
+      "400g di gnocchi di patate",
+      "400g di carne macinata",
+      "1 cipolla",
+      "400g di passata di pomodoro",
+      "Basilico q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Tagliata di manzo",
+    "ingredienti": [
+      "1 tagliata di manzo",
+      "Rucola q.b.",
+      "Scaglie di Parmigiano q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Polpo alla griglia",
+    "ingredienti": [
+      "1 polpo",
+      "Prezzemolo q.b.",
+      "Aglio q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Risotto ai frutti di mare",
+    "ingredienti": [
+      "200g di riso",
+      "100g di gamberi",
+      "100g di cozze",
+      "100g di vongole",
+      "1 cipolla",
+      "Brodo di pesce q.b.",
+      "Prezzemolo q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Filetto di branzino al limone",
+    "ingredienti": [
+      "2 filetti di branzino",
+      "1 limone",
+      "Prezzemolo q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Frittura mista di mare",
+    "ingredienti": [
+      "100g di gamberi",
+      "100g di calamari",
+      "100g di scampi",
+      "Farina q.b.",
+      "Olio per friggere q.b.",
+      "Sale q.b.",
+      "Pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Braciole al sugo",
+    "ingredienti": [
+      "4 fettine di carne di manzo",
+      "Pane grattugiato q.b.",
+      "1 spicchio d'aglio",
+      "400g di passata di pomodoro",
+      "Basilico q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Merluzzo all'acqua pazza",
+    "ingredienti": [
+      "2 filetti di merluzzo",
+      "1 limone",
+      "Pomodorini q.b.",
+      "Prezzemolo q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_carne",
+    "nome": "Cozze alla marinara",
+    "ingredienti": [
+      "1 kg di cozze",
+      "Aglio q.b.",
+      "Prezzemolo q.b.",
+      "Peperoncino q.b.",
+      "Vino bianco q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Melanzane alla parmigiana",
+    "ingredienti": [
+      "1 melanzana",
+      "1 pomodoro fresco",
+      "1 mozzarella",
+      "4 foglie di basilico",
+      "1 cucchiaio di parmigiano grattugiato",
+      "1 cucchiaio di olio d'oliva",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Frittata di verdure",
+    "ingredienti": [
+      "2 uova",
+      "1 zucchina",
+      "1/2 peperone",
+      "1 carota",
+      "1/2 cipolla",
+      "2 cucchiai di formaggio grattugiato",
+      "Erbe aromatiche q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Polenta con funghi",
+    "ingredienti": [
+      "50g di polenta",
+      "50g di funghi champignon",
+      "50g di funghi porcini",
+      "1 cucchiaio di burro",
+      "1 cucchiaio di parmigiano grattugiato",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Caprese",
+    "ingredienti": [
+      "1 mozzarella di bufala",
+      "1 pomodoro",
+      "4 foglie di basilico",
+      "1 cucchiaio di olio d'oliva",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Cotolette di melanzane",
+    "ingredienti": [
+      "1 melanzana",
+      "2 cucchiai di pane grattugiato",
+      "1 uovo",
+      "1 cucchiaio di parmigiano grattugiato",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Zucchine ripiene",
+    "ingredienti": [
+      "1 zucchina",
+      "2 cucchiai di ricotta",
+      "1 cucchiaio di parmigiano grattugiato",
+      "2 cucchiai di pangrattato",
+      "4 foglie di basilico",
+      "1 cucchiaio di olio d'oliva",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Caponata",
+    "ingredienti": [
+      "1 melanzana",
+      "1 peperone",
+      "1/2 cipolla",
+      "1 cucchiaio di capperi",
+      "1 cucchiaio di olive nere",
+      "2 cucchiai di pomodori pelati",
+      "1 cucchiaio di aceto di vino",
+      "1 cucchiaio di zucchero",
+      "1 cucchiaio di olio d'oliva",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Insalata di tonno e fagioli",
+    "ingredienti": [
+      "100g di tonno sott'olio",
+      "100g di fagioli cannellini",
+      "1 pomodoro",
+      "1/4 cipolla rossa",
+      "1 cucchiaio di prezzemolo tritato",
+      "1 cucchiaio di olio d'oliva",
+      "1 cucchiaio di succo di limone",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Salmone al forno",
+    "ingredienti": [
+      "1 filetto di salmone",
+      "1/2 limone",
+      "1 cucchiaio di olio d'oliva",
+      "Erbe aromatiche q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Risotto ai frutti di mare",
+    "ingredienti": [
+      "80g di riso",
+      "100g di frutti di mare (cozze, vongole, calamari, gamberi)",
+      "1/2 cipolla",
+      "1 spicchio d'aglio",
+      "1/2 bicchiere di vino bianco",
+      "Brodo di pesce q.b.",
+      "1 cucchiaio di olio d'oliva",
+      "Prezzemolo tritato q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Pollo alla griglia",
+    "ingredienti": [
+      "1 petto di pollo",
+      "1 limone",
+      "1 cucchiaio di olio d'oliva",
+      "Erbe aromatiche q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Bistecca alla griglia",
+    "ingredienti": [
+      "1 bistecca di manzo",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Pesce al cartoccio",
+    "ingredienti": [
+      "1 filetto di pesce (orata, branzino, salmone)",
+      "1/2 limone",
+      "1 cucchiaio di olio d'oliva",
+      "Erbe aromatiche q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Hamburger",
+    "ingredienti": [
+      "100g di carne macinata",
+      "1 panino per hamburger",
+      "1 foglia di lattuga",
+      "1 fetta di pomodoro",
+      "1 fetta di formaggio",
+      "Ketchup q.b.",
+      "Maionese q.b.",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Spaghetti aglio, olio e peperoncino",
+    "ingredienti": [
+      "80g di spaghetti",
+      "1 spicchio d'aglio",
+      "1 peperoncino piccante",
+      "1 cucchiaio di olio d'oliva",
+      "Prezzemolo tritato q.b.",
+      "Sale q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Parmigiana di zucchine",
+    "ingredienti": [
+      "2 zucchine",
+      "1 pomodoro fresco",
+      "1 mozzarella",
+      "4 foglie di basilico",
+      "1 cucchiaio di parmigiano grattugiato",
+      "1 cucchiaio di olio d'oliva",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Pasta al pesto",
+    "ingredienti": [
+      "80g di pasta",
+      "1 mazzetto di basilico",
+      "2 cucchiai di parmigiano grattugiato",
+      "1 cucchiaio di pinoli",
+      "1 spicchio d'aglio",
+      "3 cucchiai di olio d'oliva",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Polpette di carne",
+    "ingredienti": [
+      "100g di carne macinata",
+      "2 cucchiai di pangrattato",
+      "1 uovo",
+      "1 cucchiaio di parmigiano grattugiato",
+      "1 cucchiaio di prezzemolo tritato",
+      "1 spicchio d'aglio",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Tortino di patate",
+    "ingredienti": [
+      "2 patate",
+      "2 uova",
+      "2 cucchiai di parmigiano grattugiato",
+      "1 cucchiaio di prezzemolo tritato",
+      "Sale e pepe q.b.",
+      "Olio d'oliva q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Frittata di prosciutto e formaggio",
+    "ingredienti": [
+      "2 uova",
+      "50g di prosciutto cotto",
+      "50g di formaggio a fette",
+      "1 cucchiaio di olio d'oliva",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Tartare di tonno",
+    "ingredienti": [
+      "100g di tonno fresco",
+      "1/2 limone",
+      "1 cucchiaio di olio d'oliva",
+      "Erbe aromatiche q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Zuppa di lenticchie",
+    "ingredienti": [
+      "50g di lenticchie",
+      "1/2 cipolla",
+      "1 carota",
+      "1 gambo di sedano",
+      "1 foglia di alloro",
+      "1 cucchiaio di olio d'oliva",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Filetto di merluzzo al limone",
+    "ingredienti": [
+      "1 filetto di merluzzo",
+      "1/2 limone",
+      "1 cucchiaio di olio d'oliva",
+      "Prezzemolo tritato q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Ravioli al pomodoro",
+    "ingredienti": [
+      "80g di ravioli",
+      "2 cucchiai di pomodoro pelato",
+      "1 cucchiaio di olio d'oliva",
+      "Basilico q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Involtini di pollo",
+    "ingredienti": [
+      "1 petto di pollo",
+      "50g di prosciutto cotto",
+      "50g di formaggio a fette",
+      "1 cucchiaio di olio d'oliva",
+      "Erbe aromatiche q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Polpo alla griglia",
+    "ingredienti": [
+      "100g di polpo",
+      "1 cucchiaio di olio d'oliva",
+      "Prezzemolo tritato q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Gnocchi al pomodoro",
+    "ingredienti": [
+      "80g di gnocchi",
+      "2 cucchiai di pomodoro pelato",
+      "1 cucchiaio di olio d'oliva",
+      "Basilico q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Sformato di verdure",
+    "ingredienti": [
+      "1 zucchina",
+      "1 carota",
+      "2 cucchiai di formaggio grattugiato",
+      "2 cucchiai di pangrattato",
+      "2 cucchiai di latte",
+      "2 cucchiai di parmigiano grattugiato",
+      "1 cucchiaio di olio d'oliva",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Salmone alla griglia",
+    "ingredienti": [
+      "1 filetto di salmone",
+      "1/2 limone",
+      "1 cucchiaio di olio d'oliva",
+      "Erbe aromatiche q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "secondi_semplici",
+    "nome": "Filetto di manzo al pepe verde",
+    "ingredienti": [
+      "1 filetto di manzo",
+      "1 cucchiaio di pepe verde in salamoia",
+      "1/2 bicchiere di panna",
+      "1 cucchiaio di olio d'oliva",
+      "Sale q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+    "nome": "Insalata mista",
+    "ingredienti": [
+      "150g di lattuga",
+      "2 pomodori freschi",
+      "1 cetriolo",
+      "1 carota",
+      "6 olive",
+      "1 cucchiaio di olio d'oliva",
+      "1 cucchiaio di aceto balsamico",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+    "nome": "Patate al forno",
+    "ingredienti": [
+      "3 patate",
+      "2 cucchiai di olio d'oliva",
+      "1 rametto di rosmarino",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+    "nome": "Verdure grigliate",
+    "ingredienti": [
+      "1 zucchina",
+      "1 peperone",
+      "1 melanzana",
+      "2 cucchiai di olio d'oliva",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+    "nome": "Caponata",
+    "ingredienti": [
+      "1 melanzana",
+      "1 peperone",
+      "1 cipolla",
+      "1 cucchiaio di capperi",
+      "6 olive",
+      "2 pomodori",
+      "1 cucchiaio di aceto balsamico",
+      "1 cucchiaino di zucchero",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+    "nome": "Spinaci saltati in padella",
+    "ingredienti": [
+      "200g di spinaci freschi",
+      "1 spicchio d'aglio",
+      "2 cucchiai di olio d'oliva",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+    "nome": "Cavolfiore gratinato",
+    "ingredienti": [
+      "1 cavolfiore",
+      "Besciamella q.b.",
+      "Formaggio grattugiato q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+    "nome": "Fagiolini al vapore",
+    "ingredienti": [
+      "200g di fagiolini",
+      "2 cucchiai di olio d'oliva",
+      "Sale q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+    "nome": "Pomodori ripieni",
+    "ingredienti": [
+      "4 pomodori",
+      "150g di tonno in scatola",
+      "1 cucchiaio di maionese",
+      "Prezzemolo fresco q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+    "nome": "Carciofi alla romana",
+    "ingredienti": [
+      "4 carciofi",
+      "1 limone",
+      "2 spicchi d'aglio",
+      "Prezzemolo fresco q.b.",
+      "Olio d'oliva q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Purè di patate",
+    "ingredienti": [
+      "4 patate",
+      "100ml di latte",
+      "2 cucchiai di burro",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Cetrioli in agrodolce",
+    "ingredienti": [
+      "2 cetrioli",
+      "1/4 di cipolla",
+      "2 cucchiai di aceto di mele",
+      "2 cucchiai di zucchero",
+      "Sale q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Melanzane a funghetto",
+    "ingredienti": [
+      "2 melanzane",
+      "2 spicchi d'aglio",
+      "1/2 peperoncino",
+      "Origano secco q.b.",
+      "Olio d'oliva q.b.",
+      "Sale q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Zucchine ripiene",
+    "ingredienti": [
+      "2 zucchine",
+      "150g di carne macinata",
+      "1 cipolla",
+      "1 spicchio d'aglio",
+      "2 cucchiai di pangrattato",
+      "1 uovo",
+      "Formaggio grattugiato q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Piselli alla francese",
+    "ingredienti": [
+      "200g di piselli surgelati",
+      "1 cipolla",
+      "1 carota",
+      "1 costa di sedano",
+      "2 cucchiai di olio d'oliva",
+      "Sale q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Caponata di zucchine",
+    "ingredienti": [
+      "2 zucchine",
+      "1 cipolla",
+      "1 peperone",
+      "2 pomodori",
+      "2 cucchiai di aceto",
+      "2 cucchiai di zucchero",
+      "Olio d'oliva q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Pomodori al gratin",
+    "ingredienti": [
+      "4 pomodori",
+      "2 cucchiai di pangrattato",
+      "1 spicchio d'aglio",
+      "Prezzemolo fresco q.b.",
+      "Olio d'oliva q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Peperoni in padella",
+    "ingredienti": [
+      "2 peperoni",
+      "1 spicchio d'aglio",
+      "2 cucchiai di olio d'oliva",
+      "Origano secco q.b.",
+      "Sale q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Carciofi fritti",
+    "ingredienti": [
+      "4 carciofi",
+      "1 limone",
+      "Farina q.b.",
+      "Olio di semi di arachidi",
+      "Sale q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Broccoli al vapore",
+    "ingredienti": [
+      "1 mazzo di broccoli",
+      "2 cucchiai di olio d'oliva",
+      "Sale q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Peperoni ripieni",
+    "ingredienti": [
+      "2 peperoni",
+      "150g di carne macinata",
+      "1 cipolla",
+      "1 spicchio d'aglio",
+      "2 cucchiai di pangrattato",
+      "1 uovo",
+      "Formaggio grattugiato q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Melanzane alla parmigiana",
+    "ingredienti": [
+      "2 melanzane",
+      "300g di mozzarella",
+      "200g di Parmigiano Reggiano",
+      "500g di passata di pomodoro",
+      "1 spicchio d'aglio",
+      "Olio d'oliva q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Asparagi al vapore",
+    "ingredienti": [
+      "1 mazzo di asparagi",
+      "2 cucchiai di olio d'oliva",
+      "Sale q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Cavolo cappuccio stufato",
+    "ingredienti": [
+      "1 cavolo cappuccio",
+      "1 cipolla",
+      "2 cucchiai di olio d'oliva",
+      "Acqua q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Cipolle in agrodolce",
+    "ingredienti": [
+      "2 cipolle",
+      "2 cucchiai di aceto di mele",
+      "2 cucchiai di zucchero",
+      "Sale q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Ratatouille",
+    "ingredienti": [
+      "1 melanzana",
+      "1 zucchina",
+      "1 peperone",
+      "2 pomodori",
+      "1 cipolla",
+      "2 spicchi d'aglio",
+      "2 cucchiai di olio d'oliva",
+      "Prezzemolo fresco q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Purè di fagioli",
+    "ingredienti": [
+      "200g di fagioli cannellini in scatola",
+      "2 cucchiai di olio d'oliva",
+      "1 spicchio d'aglio",
+      "Prezzemolo fresco q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Pannocchie bollite",
+    "ingredienti": ["4 pannocchie", "Sale q.b."],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Cetrioli marinați",
+    "ingredienti": [
+      "2 cetrioli",
+      "1/4 di cipolla",
+      "2 cucchiai di aceto di mele",
+      "1 cucchiaio di zucchero",
+      "Sale q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Funghi trifolati",
+    "ingredienti": [
+      "200g di funghi champignon",
+      "2 spicchi d'aglio",
+      "Prezzemolo fresco q.b.",
+      "Olio d'oliva q.b.",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  },
+  {
+    "categoria": "contorni",
+
+    "nome": "Peperoni arrostiti",
+    "ingredienti": [
+      "2 peperoni",
+      "2 cucchiai di olio d'oliva",
+      "Sale e pepe q.b."
+    ],
+    "immagine": "http://placekitten.com/200",
+    "descrizione_piccola": " ",
+    "descrizione_grande": " "
+  }
+]

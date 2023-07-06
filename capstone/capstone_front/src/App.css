@@ -18,9 +18,6 @@ body {
   border-radius: 20px;
   outline: none;
 }
-.form input:focus {
-  outline: none;
-}
 .icon {
   cursor: pointer;
 }
@@ -45,9 +42,13 @@ color:  rgb(166, 189, 132);
   border-radius: 20px;
   cursor: pointer;
   background-color: orange;
+  border: none;
 }
 .login:hover {
   background-color: rgb(255, 177, 33);
+}
+.login:focus{
+  background-color:none !important;
 }
 .dropButton {
   padding: 0 !important;
@@ -74,7 +75,9 @@ nav {
 .logo span {
   color: rgb(254, 194, 82);
 }
-
+.orange{
+  color:orange
+}
 /* RECIPE */
 
 .recipeCard {
@@ -151,4 +154,9 @@ font-style:oblique;
 .filter span:hover{
 cursor: pointer;
 border-bottom:1px solid black ;
+}
+/*LOGIN*/
+.register:hover{
+cursor: pointer;
+text-decoration: underline;
 }

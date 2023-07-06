@@ -28,13 +28,17 @@ private String nome;
 @Column(nullable = false)
 private String[] ingredienti;
 private String immagine;
+private String descrizione_piccola;
+private String descrizione_grande;
 
-public Recipe(String categoria,String nome, String[] ingredienti, String immagine) {
+public Recipe(String categoria,String nome, String[] ingredienti, String immagine,String descrizione_piccola,String descrizione_grande) {
 	super();
 	this.nome = nome;
 	this.categoria = categoria;
 	this.ingredienti = ingredienti;
 	this.immagine = immagine;
+	this.descrizione_piccola=descrizione_piccola;
+	this.descrizione_grande=descrizione_grande;
 }
 
 
