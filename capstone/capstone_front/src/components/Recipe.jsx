@@ -9,7 +9,7 @@ import { Dropdown } from "react-bootstrap";
 
 const Recipe = () => {
   const dispatch = useDispatch();
-  const data = useSelector((state) => state.user.recipe);
+  const data = useSelector((state) => state.user.category);
   useEffect(() => {
     const getLocal = () => {
       const getKey = localStorage.getItem("loginKey");
@@ -88,6 +88,7 @@ const Recipe = () => {
     }
 
   }
+
   function changeCarne() {
     if (here === 1) {
 
@@ -103,20 +104,22 @@ const Recipe = () => {
     }
 
   }
+
   function changeSemplici() {
     if (here === 1) {
-      localStorage.setItem("category", "secondi_semplici")
+      localStorage.removeItem("category", "secondi_semplici")
       return localStorage.getItem("category")
     } else {
       sethere(1)
       setiStart(1)
       setIFinish(10)
-      localStorage.setItem("category", "secondi_semplici")
+      localStorage.removeItem("category", "secondi_semplici")
       return localStorage.getItem("category")
     }
 
 
   }
+  
   function changeContorni() {
     if (here === 1) {
       localStorage.setItem("category", "contorni")
@@ -184,10 +187,21 @@ const Recipe = () => {
         </div>
       </div>
       <div className="flex-wrap d-flex justify-content-between w-75 ">
-
-        <div className="numberPage mx-3 px-2 py-1 rounded-circle" onClick={beforeFunction}><AiOutlineArrowLeft /></div>
+        {
+        here === 1  
+        ?
+          <div className=" mx-3 px-2 py-1 rounded-circle" ><AiOutlineArrowLeft /></div>
+          :
+          <div className="numberPage mx-3 px-2 py-1 rounded-circle" onClick={beforeFunction}><AiOutlineArrowLeft /></div>
+        }
         <div>Pagina {here}</div>
-        <div className="numberPage mx-3 px-2 py-1 rounded-circle" onClick={nextFunction}><AiOutlineArrowRight /></div>
+
+        {here === data.length / 10?
+          <div className="mx-3 px-2 py-1 rounded-circle"><AiOutlineArrowRight /></div>
+          :
+          <div className="numberPage mx-3 px-2 py-1 rounded-circle" onClick={nextFunction}><AiOutlineArrowRight /></div>
+        }
+        
       </div>
       {
         data.slice(iStart, iFinish).map((recipe) => (

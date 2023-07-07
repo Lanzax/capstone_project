@@ -37,19 +37,17 @@ color:  rgb(166, 189, 132);
   width: 25px;
 }
 .login {
-  font-weight: bold;
-  color: white;
-  border-radius: 20px;
-  cursor: pointer;
-  background-color: orange;
-  border: none;
+  font-weight: bold !important;
+  color: white !important;
+  border-radius: 20px !important;
+  cursor: pointer !important;
+  background-color: orange !important;
+  border: none !important;
 }
 .login:hover {
-  background-color: rgb(255, 177, 33);
+  background-color: rgb(255, 177, 33)!important;
 }
-.login:focus{
-  background-color:none !important;
-}
+
 .dropButton {
   padding: 0 !important;
   padding: 0.5em 1em !important;
@@ -155,8 +153,16 @@ font-style:oblique;
 cursor: pointer;
 border-bottom:1px solid black ;
 }
+
 /*LOGIN*/
 .register:hover{
 cursor: pointer;
 text-decoration: underline;
+}
+.disconnect div:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.disconnect{
+  text-align: center;
 }

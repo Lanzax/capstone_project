@@ -2,9 +2,9 @@ import { CATEGORY, RECIPE,LOGIN } from "../action/action_profile"
 
 const initState = {
   user: {
-    recipe: [],
-    category: [],
-    login: []
+    recipe: {},
+    category: {},
+    login: {}
   }
 }
 
@@ -15,7 +15,7 @@ const mainProfile = (state = initState, action) => {
         ...state,
         user: {
           ...state.user,
-          recipe: action.payload
+          recipe:action.payload
         }
       }
     case CATEGORY:

@@ -40,7 +40,7 @@ export const getByCategory = (autentication,category) => {
             if (res.ok) {
 
                 const data = await res.json()
-                dispatch(recipe(data))
+                dispatch(categoria(data))
                 console.log(getState())
             } else {
 
@@ -71,7 +71,7 @@ export const getAllRecipe = (autentication) => {
             if (res.ok) {
 
                 const data = await res.json()
-                dispatch(recipe(data))
+                dispatch(login(data))
                 console.log(getState())
             } else {
 
@@ -86,7 +86,7 @@ export const getAllRecipe = (autentication) => {
     }
 
 }
-export const loginFunction=(email)=>{
+export const loginFunction=(username,password)=>{
     return async (dispatch, getState) => {
         try {
 
@@ -95,7 +95,7 @@ export const loginFunction=(email)=>{
                 headers: {
                     'Content-Type': 'application/json'
                   },
-                  body: JSON.stringify(email)
+                  body: JSON.stringify({"username":username,"password":password })
             })
             if (res.ok) {
 
