@@ -1,12 +1,12 @@
-import { useDispatch, useSelector } from "react-redux";
-import { getAllRecipe } from "../Redux/action/action_profile";
-import { useEffect } from "react";
+
+
+import Jumbotron from "./Jumbotron"
 
 const HomeBody = ()=>{
 
 return(
     <>
-    
+    <Jumbotron/>
     </>
 )
 }

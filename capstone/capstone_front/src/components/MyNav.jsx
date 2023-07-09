@@ -17,29 +17,26 @@ const MyNav = () => {
   const userName = useSelector((state) => state.user.login.username)
   const dispatch = useDispatch();
 
-
   const handleSubmitLogin = () => {
     dispatch(loginFunction(username, password));
-    if (key) {
+
       handleCloseModalLogin()
-      localStorage.setItem("loginKey", key)
-    } else {
-      alert("Credenziali errati")
-    }
   };
 
-  const handleSubmitRegister = () => {
+  const handleSubmitRegister = () => { 
 
     dispatch(loginFunction());
 
   };
   const removeAuth = () => {
-    localStorage.removeItem("loginKey")
+    window.location.reload()
   }
   const handleCloseModalLogin = () => {
     setShowModalLogin(false);
   };
-
+  function firsLetterUpperCase(word) {
+    return word.charAt(0).toUpperCase() + word.slice(1);
+  }
   const handleShowModalLogin = () => {
     setShowModalLogin(true);
   };
@@ -89,7 +86,7 @@ const MyNav = () => {
             <BiSearchAlt2 className="icon fs-4 searchIcon" />
           </div>
 
-          {!localStorage.getItem("loginKey") ?
+          {!key ?
             <div className="login mx-3 px-3 py-2" onClick={handleShowModalLogin}>
               Login
               <BiLogIn className="light mx-1 fs-5" />
@@ -97,7 +94,7 @@ const MyNav = () => {
             :
             <Dropdown>
               <Dropdown.Toggle className="login mx-3 px-3 py-2">
-              
+              {firsLetterUpperCase(userName)}
                 <BsFillPersonCheckFill className="light mx-1 fs-5" />
               </Dropdown.Toggle>
               <Dropdown.Menu>

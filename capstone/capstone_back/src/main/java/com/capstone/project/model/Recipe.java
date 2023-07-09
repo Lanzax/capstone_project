@@ -6,6 +6,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.persistence.Transient;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -28,7 +29,9 @@ private String nome;
 @Column(nullable = false)
 private String[] ingredienti;
 private String immagine;
+@Column(columnDefinition = "text")
 private String descrizione_piccola;
+@Column(columnDefinition = "text")
 private String descrizione_grande;
 
 public Recipe(String categoria,String nome, String[] ingredienti, String immagine,String descrizione_piccola,String descrizione_grande) {

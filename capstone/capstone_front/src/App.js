@@ -20,7 +20,6 @@ function App() {
 
             <Route path='/home' element={
               <>
-                <Jumbotron />
                 <HomeBody />
               </>
             }

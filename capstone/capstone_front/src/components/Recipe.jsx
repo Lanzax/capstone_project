@@ -10,15 +10,14 @@ import { Dropdown } from "react-bootstrap";
 const Recipe = () => {
   const dispatch = useDispatch();
   const data = useSelector((state) => state.user.category);
+  const getKey = useSelector((state) => state.user.login.accessToken);
+
   useEffect(() => {
     const getLocal = () => {
-      const getKey = localStorage.getItem("loginKey");
-      if (getKey) {
+     
         dispatch(getByCategory(getKey, localStorage.getItem("category")));
-      }
     };
     getLocal();
-
   }, []);
   console.log(data)
   const [iStart, setiStart] = useState(1);

@@ -166,3 +166,10 @@ text-decoration: underline;
 .disconnect{
   text-align: center;
 }
+
+
+.background-image{
+  background-image: url("https://placekitten.com/1000");
+  opacity: 1;
+  position: absolute;
+}

@@ -18,7 +18,7 @@ import com.capstone.project.service.RecipeService;
 
 
 @RestController
-@CrossOrigin(maxAge=3600)
+@CrossOrigin(origins = "*",maxAge=3600)
 @RequestMapping("/api/recipe")
 public class RecipeController {
 @Autowired RecipeService service;
@@ -27,6 +27,7 @@ public class RecipeController {
 public List<Recipe> getAllRecipe() {
 	return service.getAllRecipe();	
 }
+@CrossOrigin(origins = "*", allowedHeaders = "Authorization")
 @GetMapping("/category/{categoria}")
 public List<Recipe> getByCategory(@PathVariable String categoria) {
 	return service.getRecipeByCategoria(categoria);	

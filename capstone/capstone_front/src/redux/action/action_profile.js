@@ -10,10 +10,10 @@ export const recipe = (recipe) => ({
     payload: recipe
 
 })
-export const categoria = (categoria) => ({
+export const category = (category) => ({
 
     type: CATEGORY,
-    payload: categoria
+    payload: category
 
 })
 export const login = (login) => ({
@@ -40,7 +40,7 @@ export const getByCategory = (autentication,category) => {
             if (res.ok) {
 
                 const data = await res.json()
-                dispatch(categoria(data))
+                dispatch(category(data))
                 console.log(getState())
             } else {
 
@@ -71,7 +71,7 @@ export const getAllRecipe = (autentication) => {
             if (res.ok) {
 
                 const data = await res.json()
-                dispatch(login(data))
+                dispatch(recipe(data))
                 console.log(getState())
             } else {
 
@@ -100,7 +100,7 @@ export const loginFunction=(username,password)=>{
             if (res.ok) {
 
                 const data = await res.json()
-                dispatch(recipe(data))
+                dispatch(login(data))
                 console.log(getState())
             } else {
 
