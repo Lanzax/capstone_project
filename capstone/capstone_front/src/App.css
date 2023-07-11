@@ -1,5 +1,5 @@
 body {
-  background-color: #F7F6F8;
+  background-color: #f7f6f8;
 }
 .dropdown-toggle::after {
   display: none !important;
@@ -13,7 +13,7 @@ body {
 .form {
   background-color: white;
   width: 60%;
-  border: 1.5px solid  rgb(166, 189, 132);
+  border: 1.5px solid rgb(166, 189, 132);
   padding: 0.5em;
   border-radius: 20px;
   outline: none;
@@ -21,8 +21,8 @@ body {
 .icon {
   cursor: pointer;
 }
-.searchIcon{
-color:  rgb(166, 189, 132);
+.searchIcon {
+  color: rgb(166, 189, 132);
 }
 .navIcon {
   font-size: 30px;
@@ -45,7 +45,7 @@ color:  rgb(166, 189, 132);
   border: none !important;
 }
 .login:hover {
-  background-color: rgb(255, 177, 33)!important;
+  background-color: rgb(255, 177, 33) !important;
 }
 
 .dropButton {
@@ -73,103 +73,132 @@ nav {
 .logo span {
   color: rgb(254, 194, 82);
 }
-.orange{
-  color:orange
+.orange {
+  color: orange;
 }
 /* RECIPE */
 
 .recipeCard {
   background-color: white;
-box-shadow: 1px 1px 10px 5px #eeeeee;
-border-radius: 10px;
+  box-shadow: 1px 1px 10px 5px #eeeeee;
+  border-radius: 10px;
 }
-.recipeImg{
+.recipeImg {
   position: relative;
 }
-.recipeCard img{
+.recipeCard img {
   border-radius: 10px 0 0 10px;
 }
-.like{
+.like {
   position: absolute;
-  top:5px;
+  top: 5px;
   right: 5px;
   color: white;
 }
 
-.buttonRecipe{
+.buttonRecipe {
   color: white;
   border-radius: 20px;
   font-weight: bold;
-  padding :0.5em 0.8em;
+  padding: 0.5em 0.8em;
   background-color: orange;
   cursor: pointer;
 }
-.buttonRecipe:hover{
+.buttonRecipe:hover {
   background-color: rgb(253, 176, 33);
 }
-.pRecipe p{
+.pRecipe p {
   color: orange;
- font-size: 3em;
-font-style:oblique;
+  font-size: 3em;
+  font-style: oblique;
 }
-.pRecipe .dropFilter{
-  border: 1px solid  #eeeeee !important;
-  padding :0.5em 1em !important;
+.pRecipe .dropFilter {
+  border: 1px solid #eeeeee !important;
+  padding: 0.5em 1em !important;
   background-color: white !important;
   border-radius: 20px !important;
   cursor: pointer !important;
 }
-.ic{
+.ic {
   color: orange;
 }
-.pRecipe .dropFilter:hover{
+.pRecipe .dropFilter:hover {
   border: 1px solid orange !important;
 }
-.numberPage{
+.numberPage {
   color: orange;
   background-color: white;
-  border: 1px solid #eeeeee ;
+  border: 1px solid #eeeeee;
 }
-.numberPage:hover{
+.numberPage:hover {
   border: 1px solid orange;
   cursor: pointer;
 }
-.numberPageDisactive{
+.numberPageDisactive {
   color: grey;
   background-color: white;
-  border: 1px solid #eeeeee ;
-}
-.numberPageDisactive:hover{
-  cursor: pointer;
-}
-.filter{
-  width: 200px !important;
   border: 1px solid #eeeeee;
 }
-.filter div div{
-  border-left: 2px solid orange ;
+.numberPageDisactive:hover {
+  cursor: pointer;
 }
-.filter span:hover{
-cursor: pointer;
-border-bottom:1px solid black ;
+.filter {
+  width: 250px !important;
+  border: 1px solid #eeeeee;
 }
-
-/*LOGIN*/
-.register:hover{
-cursor: pointer;
-text-decoration: underline;
+.filter >div>div {
+  font-weight: bold;
+  border-left: 3px solid orange;
 }
-.disconnect div:hover{
+.filter span:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-.disconnect{
+
+/*LOGIN*/
+.register:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.disconnect div:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.disconnect {
   text-align: center;
 }
 
-
-.background-image{
+.background-image {
   background-image: url("https://placekitten.com/1000");
   opacity: 1;
   position: absolute;
+}
+
+.formAuth {
+  width: 350px;
+}
+
+.carosello {
+
+  width: 400px !important;
+  height: 400px !important;
+}
+.jumboNav div:hover{
+  text-decoration: underline;
+
+}
+.jumboNav div{
+  font-size: 1.2em;
+  font-weight: 500;
+  cursor: pointer;
+}
+.dropMenuHome{
+  width: 250px !important;
+}
+.dropMenuHome> div >div{
+  border-left: 3px solid rgb(144, 193, 70);
+}
+.dropMenuHome div div >div:hover{
+  cursor: pointer;
+ text-decoration: underline; 
 }

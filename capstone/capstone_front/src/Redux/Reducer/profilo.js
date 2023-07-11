@@ -1,10 +1,12 @@
+import { REGISTER } from "redux-persist"
 import { CATEGORY, RECIPE,LOGIN } from "../action/action_profile"
 
 const initState = {
   user: {
     recipe: {},
     category: {},
-    login: {}
+    login: {},
+    register:{}
   }
 }
 
@@ -34,6 +36,14 @@ const mainProfile = (state = initState, action) => {
             login: action.payload
           }
         }
+        case REGISTER:
+          return {
+            ...state,
+            user: {
+              ...state.user,
+              register: action.payload
+            }
+          }
     default:
       return state
   }

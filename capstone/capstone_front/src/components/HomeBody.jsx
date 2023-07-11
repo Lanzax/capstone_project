@@ -1,5 +1,6 @@
 
 
+import Carosello from "./Carosello"
 import Jumbotron from "./Jumbotron"
 
 const HomeBody = ()=>{
@@ -7,6 +8,7 @@ const HomeBody = ()=>{
 return(
     <>
     <Jumbotron/>
+    <Carosello/>
     </>
 )
 }

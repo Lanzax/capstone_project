@@ -2,7 +2,7 @@
 export const RECIPE = "RECIPE";
 export const CATEGORY ="CATEGORY";
 export const LOGIN ="LOGIN"
-
+export const REGISTER ="REGISTER"
 
 export const recipe = (recipe) => ({
 
@@ -22,6 +22,13 @@ export const login = (login) => ({
     payload: login
 
 })
+export const register = (register) => ({
+
+    type: REGISTER,
+    payload: register
+
+})
+
 
 
 
@@ -56,25 +63,21 @@ export const getByCategory = (autentication,category) => {
 
 }
 
-export const getAllRecipe = (autentication) => {
+export const getAllRecipe = () => {
 
 
     return async (dispatch, getState) => {
 
         try {
 
-            const res = await fetch("http://localhost:8080/api/recipe", {
-                headers: {
-                    'Authorization': "Bearer " + autentication
-                }
-            })
+            const res = await fetch("http://localhost:8080/api/recipe")
             if (res.ok) {
 
                 const data = await res.json()
                 dispatch(recipe(data))
                 console.log(getState())
             } else {
-
+                window.alert("Credenziali non valide!!")
                 console.log("errore durante una richiesta")
 
             }
@@ -98,16 +101,41 @@ export const loginFunction=(username,password)=>{
                   body: JSON.stringify({"username":username,"password":password })
             })
             if (res.ok) {
-
                 const data = await res.json()
                 dispatch(login(data))
                 console.log(getState())
             } else {
-
+                window.alert("Credenziali non valide")
                 console.log("errore durante una richiesta")
 
             }
 
+        } catch (error) {
+            console.log(error)
+        }
+
+    }
+}
+export const registerFunction=(nome,username,email,password)=>{
+    return async (dispatch, getState) => {
+        try {
+
+            const res = await fetch("http://localhost:8080/api/auth/register", {
+                method:"POST",
+                headers: {
+                    'Content-Type': 'application/json'
+                  },
+                  body: JSON.stringify({"nome":nome,"username":username,"email":email,"password":password })
+            })
+            if (res.ok) {
+                const data = await res.json()
+                dispatch(register(data))
+                console.log(getState())
+                window.alert("Effettua il login")
+            } else {
+                window.alert("Registrazione non avvenuta")
+                console.log("errore durante una richiesta")
+            }
         } catch (error) {
             console.log(error)
         }

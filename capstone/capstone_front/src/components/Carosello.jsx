@@ -1,55 +1,86 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from "react";
+import Carousel from "react-bootstrap/Carousel";
+import { useDispatch, useSelector } from "react-redux";
+import { getAllRecipe } from "../Redux/action/action_profile";
+import { Container, Spinner } from "react-bootstrap";
 
-const Carosello = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
+function Carosello() {
+  const dispatch = useDispatch();
+  const auth = localStorage.getItem("loginKey");
+  const [loading, setLoading] = useState(true);
+  const data = useSelector((state) => state.user.recipe);
 
-  const nextSlide = () => {
-    setCurrentSlide(currentSlide === data.length - 1 ? 0 : currentSlide + 1);
-  };
+  useEffect(() => {
+    const getRecipe = async () => {
+      await dispatch(getAllRecipe());
+      setLoading(false);
+    };
+    getRecipe();
+  }, []);
 
-  const prevSlide = () => {
-    setCurrentSlide(currentSlide === 0 ? data.length - 1 : currentSlide - 1);
-  };
+  const arrayNum = [];
+  const arrayNum2 = [];
+  if (!loading && data) {
+    for (let index = 0; index < 7; index++) {
+      let num = Math.floor(Math.random() * data.length);
+      arrayNum.push(num);
+    }
+  }
+  if (!loading && data) {
+    for (let index = 0; index < 4; index++) {
+      let num = Math.floor(Math.random() * data.length);
+      arrayNum2.push(num);
+    }
+  }
 
-  const data = [
-    {
-      id: 1,
-      image: 'https://placekitten.com/200',
-      alt: 'Immagine 1',
-    },
-    {
-      id: 2,
-      image: 'https://placekitten.com/200',
-      alt: 'Immagine 2',
-    },
-    {
-      id: 3,
-      image: 'https://placekitten.com/200',
-      alt: 'Immagine 3',
-    },
-  ];
+  if (loading) {
+    return (
+      <div className="text-center my-5 text-warning">
+        <Spinner animation="border" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </Spinner>
+      </div>
+    );
+  }
 
   return (
-    <div>
-      <div className="slider">
-        <div
-          className="slider-content"
-          style={{ transform: `translateX(-${currentSlide * 100}%)` }}
-        >
-          {data.map(slide => (
-            <div className="slide" key={slide.id}>
-              <img src={slide.image} alt={slide.alt} />
-            </div>
-          ))}
+    <>
+      <Container className="d-flex justify-content-center">
+        <div>
+          <div>
+            <img src={data[arrayNum2[0]].immagine} alt="" />
+          </div>
+          <div>
+            <img src={data[arrayNum2[1]].immagine} alt="" />
+          </div>
         </div>
-      </div>
-
-      <div className="slider-navigation">
-        <button onClick={prevSlide}>Precedente</button>
-        <button onClick={nextSlide}>Successivo</button>
-      </div>
-    </div>
+        <Carousel className="carosello">
+          {arrayNum.map((num) => {
+            return (
+              <Carousel.Item >
+                <img
+                  className="d-block w-100"
+                  src={data[num].immagine}
+                  alt="First slide"
+                />
+                <Carousel.Caption>
+                  <h3>{data[num].nome}</h3>
+                </Carousel.Caption>
+              </Carousel.Item>
+            );
+          })}
+        </Carousel>
+        <div>
+          <div>
+            <img src={data[arrayNum2[2]].immagine} alt="" />
+          </div>
+          <div>
+            <img src={data[arrayNum2[3]].immagine} alt="" />
+          </div>
+        </div>
+      </Container>
+    </>
   );
-};
+}
 
 export default Carosello;

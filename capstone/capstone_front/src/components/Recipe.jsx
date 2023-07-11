@@ -5,24 +5,34 @@ import { getByCategory } from "../Redux/action/action_profile";
 import { FaUtensils } from "react-icons/fa";
 import { BiFoodMenu, } from "react-icons/bi";
 import { HiOutlineFilter } from "react-icons/hi";
-import { Dropdown } from "react-bootstrap";
+import { Dropdown, Spinner } from "react-bootstrap";
 
 const Recipe = () => {
   const dispatch = useDispatch();
   const data = useSelector((state) => state.user.category);
   const getKey = useSelector((state) => state.user.login.accessToken);
-
-  useEffect(() => {
-    const getLocal = () => {
-     
-        dispatch(getByCategory(getKey, localStorage.getItem("category")));
-    };
-    getLocal();
-  }, []);
-  console.log(data)
+  const [loading, setLoading] = useState(true);
   const [iStart, setiStart] = useState(1);
   const [iFinish, setIFinish] = useState(10);
   const [here, sethere] = useState(1)
+  useEffect(() => {
+    const getLocal =async () => {
+       await dispatch(getByCategory(getKey, localStorage.getItem("category")));
+       setLoading(false);
+    };
+    getLocal();
+  }, [])
+  if (loading) {
+    return (
+      <div className="text-center my-5 text-warning">
+        <Spinner animation="border" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </Spinner>
+      </div>
+    );
+  }
+  console.log(data)
+
 
 
   console.log(here, iStart, iFinish)
@@ -130,25 +140,7 @@ const Recipe = () => {
       localStorage.setItem("category", "contorni")
       return localStorage.getItem("category")
     }
-
-
   }
-  function changeSpeciali() {
-    if (here === 1) {
-      localStorage.setItem("category", "speciali")
-      return localStorage.getItem("category")
-    } else {
-      sethere(1)
-      setiStart(1)
-      setIFinish(10)
-      localStorage.setItem("category", "speciali")
-      return localStorage.getItem("category")
-    }
-  }
-
-
-
-
   return (
     <>
       <div className="mx-5 my-4 pRecipe">
@@ -167,7 +159,6 @@ const Recipe = () => {
                   <div className="p-1 align-content-center" onClick={() => dispatch(getByCategory(localStorage.getItem("loginKey"), changeSemplici()))}><BiFoodMenu /><span>Secondi semplici</span></div>
                   <div className="p-1 align-content-center" onClick={() => dispatch(getByCategory(localStorage.getItem("loginKey"), changeCarne()))}><BiFoodMenu /><span>Secondi carne</span></div>
                   <div className="p-1 align-content-center" onClick={() => dispatch(getByCategory(localStorage.getItem("loginKey"), changeContorni()))}><BiFoodMenu /><span>Contorni</span></div>
-                  <div className="p-1 align-content-center" onClick={() => dispatch(getByCategory(localStorage.getItem("loginKey"), changeSpeciali()))}><BiFoodMenu /><span>Speciali</span></div>
                 </div>
               </div>
             </Dropdown.Menu>
@@ -202,31 +193,7 @@ const Recipe = () => {
         }
         
       </div>
-      {
-        data.slice(iStart, iFinish).map((recipe) => (
-          <div key={recipe.id} className="recipeList p-3">
-            <div className="recipeCard d-flex align-content-center w-75 ">
-              <div className="recipeImg">
-                <img src={recipe.immagine} className="" alt="" />
 
-                <AiOutlineHeart className="fs-2 like icon" />
-
-              </div>
-              <div className="recipeDescription mx-4 my-3 d-flex flex-column justify-content-between w-100">
-                <div>
-                  <h3>{recipe.nome}</h3>
-                  <p>{separeObject(recipe.ingredienti)}</p>
-                </div>
-                <div>
-                  <div className="d-flex justify-content-end">
-                    <span className="buttonRecipe">Scopri di più</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))
-      }
     </>
   );
 };
