@@ -6,7 +6,6 @@ import { Container, Spinner } from "react-bootstrap";
 
 function Carosello() {
   const dispatch = useDispatch();
-  const auth = localStorage.getItem("loginKey");
   const [loading, setLoading] = useState(true);
   const data = useSelector((state) => state.user.recipe);
 

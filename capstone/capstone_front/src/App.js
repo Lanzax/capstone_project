@@ -3,11 +3,13 @@ import "./App.css";
 import { Provider } from "react-redux";
 import store from "./Redux/Store/store";
 import MyNav from "./components/MyNav";
-import Jumbotron from "./components/Jumbotron";
 import Container from "react-bootstrap/esm/Container";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomeBody from "./components/HomeBody";
 import Recipe from "./components/Recipe";
+import MyFooter from "./components/MyFooter";
+import MyMenu from "./components/Menu";
+import LocalRecipe from "./components/LocalRecipe";
 
 function App() {
   return (
@@ -24,7 +26,21 @@ function App() {
                 </>
               }
             />
-
+            <Route
+              path="/menu"
+              element={
+                <>
+                  <MyMenu/>
+                </>
+              }
+            />
+            <Route
+              path="/myrecipe"
+              element={
+                <>
+                </>
+              }
+            />
             <Route
               path="/category"
               element={
@@ -36,6 +52,7 @@ function App() {
               }
             />
           </Routes>
+          <MyFooter />
         </body>
       </Provider>
     </BrowserRouter>

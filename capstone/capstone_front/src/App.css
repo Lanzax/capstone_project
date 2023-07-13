@@ -10,6 +10,9 @@ body {
   width: 100%;
   border: none;
 }
+.form input:focus {
+outline: none !important;
+}
 .form {
   background-color: white;
   width: 60%;
@@ -146,7 +149,7 @@ nav {
   width: 250px !important;
   border: 1px solid #eeeeee;
 }
-.filter >div>div {
+.filter > div > div {
   font-weight: bold;
   border-left: 3px solid orange;
 }
@@ -179,26 +182,76 @@ nav {
 }
 
 .carosello {
-
   width: 400px !important;
   height: 400px !important;
 }
-.jumboNav div:hover{
+.jumboNav div:hover {
   text-decoration: underline;
-
 }
-.jumboNav div{
+.jumboNav div {
   font-size: 1.2em;
   font-weight: 500;
   cursor: pointer;
 }
-.dropMenuHome{
+.dropMenuHome {
   width: 250px !important;
 }
-.dropMenuHome> div >div{
+.dropMenuHome > div > div {
   border-left: 3px solid rgb(144, 193, 70);
 }
-.dropMenuHome div div >div:hover{
+.dropMenuHome div div > div:hover {
   cursor: pointer;
- text-decoration: underline; 
+  text-decoration: underline;
+}
+.card {
+  position: relative;
+  border-radius: 20px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 1px 1px 10px 5px #eeeeee;
+  border: none;
+}
+.card img {
+  border-radius: 20px 20px 0 0;
+  width: 200px;
+}
+.card > div {
+  font-weight: 800;
+  font-style: oblique;
+}
+.container div > h2 {
+  color: orange;
+  font-style: oblique;
+  font-weight: 700;
+}
+.heart-icon {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.scopriButton {
+  font-weight: normal !important;
+  width: 75%;
+}
+.scopriButton:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.footer {
+  border-top: 1px solid rgb(221, 221, 221);
+}
+.textFooter:hover {
+  cursor: pointer;
+}
+.sidebarContent{
+  height: 100%;
+}
+.sidebarContent>div>div:hover{
+  cursor: pointer;
+}
+.sidebarBack{
+  font-weight: bold;
+  background-color: orange !important;
 }

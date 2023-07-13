@@ -1,6 +1,6 @@
 
 export const RECIPE = "RECIPE";
-export const CATEGORY ="CATEGORY";
+export const CATEGORIA ="CATEGORIA";
 export const LOGIN ="LOGIN"
 export const REGISTER ="REGISTER"
 
@@ -10,10 +10,10 @@ export const recipe = (recipe) => ({
     payload: recipe
 
 })
-export const category = (category) => ({
+export const categoria = (categoria) => ({
 
-    type: CATEGORY,
-    payload: category
+    type: CATEGORIA,
+    payload: categoria
 
 })
 export const login = (login) => ({
@@ -47,7 +47,7 @@ export const getByCategory = (autentication,category) => {
             if (res.ok) {
 
                 const data = await res.json()
-                dispatch(category(data))
+                dispatch(categoria(data))
                 console.log(getState())
             } else {
 
@@ -131,7 +131,6 @@ export const registerFunction=(nome,username,email,password)=>{
                 const data = await res.json()
                 dispatch(register(data))
                 console.log(getState())
-                window.alert("Effettua il login")
             } else {
                 window.alert("Registrazione non avvenuta")
                 console.log("errore durante una richiesta")

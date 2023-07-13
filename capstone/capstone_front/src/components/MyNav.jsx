@@ -11,6 +11,7 @@ import {
 import { useDispatch, useSelector } from "react-redux";
 import { BsFillPersonCheckFill } from "react-icons/bs";
 import { BiFoodMenu } from "react-icons/bi";
+import Sidebar from "./Sidebar";
 
 const MyNav = () => {
   const [showModalLogin, setShowModalLogin] = useState(false);
@@ -38,6 +39,8 @@ const MyNav = () => {
 
     if (key) {
       saveKey();
+      window.location.reload();
+      
     }
   }, [key]);
 
@@ -47,6 +50,8 @@ const MyNav = () => {
   const handleSubmitRegister = () => {
     console.log(nome, username, email, password);
     dispatch(registerFunction(nome, username, email, password));
+    handleCloseModalRegister()
+    handleShowModalLogin()
   };
   const removeAuth = () => {
     localStorage.removeItem("loginKey");
@@ -86,9 +91,7 @@ const MyNav = () => {
     <nav>
       <Container fluid className="">
         <div className="navBar d-flex p-2 d-flex align-items-center justify-content-between">
-          <div>
-            <AiOutlineMenu className="navIcon icon" />
-          </div>
+          <Sidebar/>
           <Link to="/" style={{ color: "inherit", textDecoration: "inherit" }}>
             <div className="logo">
               <span>Gusto</span>Si{" "}
@@ -106,7 +109,7 @@ const MyNav = () => {
               <Dropdown.Menu className="dropMenuHome">
                 <div className="d-flex flex-column justify-content-between mx-3 p-2">
                   <div className="px-3 mx-2">
-                    {!key ? (
+                    {!auth===undefined|!auth ? (
                       <div
                         className="p-1 align-content-center"
                         onClick={() => handleShowModalLogin()}>
@@ -128,7 +131,7 @@ const MyNav = () => {
                         </Link>
                       </div>
                     )}
-                    {!key ? (
+                    {!auth===undefined|!auth ? (
                       <div
                         className="p-1 align-content-center"
                         onClick={() => handleShowModalLogin()}>
@@ -150,7 +153,7 @@ const MyNav = () => {
                         </Link>
                       </div>
                     )}
-                    {!key ? (
+                    {!auth===undefined|!auth ? (
                       <div
                         className="p-1 align-content-center"
                         onClick={() => handleShowModalLogin()}>
@@ -172,7 +175,7 @@ const MyNav = () => {
                         </Link>
                       </div>
                     )}
-                    {!key ? (
+                    {!auth===undefined|!auth ? (
                       <div
                         className="p-1 align-content-center"
                         onClick={() => handleShowModalLogin()}>
@@ -204,7 +207,7 @@ const MyNav = () => {
             <BiSearchAlt2 className="icon fs-4 searchIcon" />
           </div>
 
-          {!auth ? (
+          {auth===undefined|!auth ? (
             <div
               className="login mx-3 px-3 py-2"
               onClick={() => handleShowModalLogin()}>
