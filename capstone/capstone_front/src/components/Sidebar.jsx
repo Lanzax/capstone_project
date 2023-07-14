@@ -17,11 +17,19 @@ function disconnect(){
   localStorage.removeItem("username")
 window.location.reload()
 }
+
   return (
     <>
+    {localStorage.getItem("loginKey")?
       <div className="threebar" variant="primary" onClick={handleShow}>
-        <AiOutlineMenu className="navIcon icon" />
-      </div>
+      <AiOutlineMenu className="navIcon icon" />
+    </div>
+    :
+    <div className="d-none" variant="primary" onClick={handleShow}>
+    <AiOutlineMenu className="navIcon icon" />
+  </div>
+    }
+
 
       <Offcanvas show={show} onHide={handleClose} className="sidebarBack">
         <Offcanvas.Header closeButton></Offcanvas.Header>

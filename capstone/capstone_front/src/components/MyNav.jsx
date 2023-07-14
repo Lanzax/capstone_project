@@ -56,10 +56,13 @@ const MyNav = () => {
   const removeAuth = () => {
     localStorage.removeItem("loginKey");
     localStorage.removeItem("username");
-    window.location.reload();
+    window.location.replace("/");
   };
   const handleCloseModalLogin = () => {
     setShowModalLogin(false);
+  };
+  const forceLogin = () => {
+    window.alert("Devi accedere o registrarti");
   };
   const handleShowModalLogin = () => {
     setShowModalLogin(true);
@@ -112,7 +115,7 @@ const MyNav = () => {
                     {!auth===undefined|!auth ? (
                       <div
                         className="p-1 align-content-center"
-                        onClick={() => handleShowModalLogin()}>
+                        onClick={forceLogin}>
                         <BiFoodMenu />
                         <span>Primi</span>
                       </div>
@@ -134,7 +137,7 @@ const MyNav = () => {
                     {!auth===undefined|!auth ? (
                       <div
                         className="p-1 align-content-center"
-                        onClick={() => handleShowModalLogin()}>
+                        onClick={forceLogin}>
                         <BiFoodMenu />
                         <span>Secondi semplici</span>
                       </div>
@@ -156,7 +159,7 @@ const MyNav = () => {
                     {!auth===undefined|!auth ? (
                       <div
                         className="p-1 align-content-center"
-                        onClick={() => handleShowModalLogin()}>
+                        onClick={forceLogin}>
                         <BiFoodMenu />
                         <span>Secondi carne</span>
                       </div>
@@ -178,7 +181,7 @@ const MyNav = () => {
                     {!auth===undefined|!auth ? (
                       <div
                         className="p-1 align-content-center"
-                        onClick={() => handleShowModalLogin()}>
+                        onClick={forceLogin}>
                         <BiFoodMenu />
                         <span>Contorni</span>
                       </div>

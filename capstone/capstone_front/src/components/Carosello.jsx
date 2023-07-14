@@ -2,13 +2,16 @@ import React, { useEffect, useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllRecipe } from "../Redux/action/action_profile";
-import { Container, Spinner } from "react-bootstrap";
+import { Button, Container, Modal, Spinner } from "react-bootstrap";
 
-function Carosello() {
+function Carosello({ showModalLogin }) {
   const dispatch = useDispatch();
   const [loading, setLoading] = useState(true);
   const data = useSelector((state) => state.user.recipe);
-
+  const [selectedRecipe, setSelectedRecipe] = useState(null);
+  const forceLogin = () => {
+    window.alert("Devi accedere o registrarti");
+  };
   useEffect(() => {
     const getRecipe = async () => {
       await dispatch(getAllRecipe());
@@ -16,6 +19,9 @@ function Carosello() {
     };
     getRecipe();
   }, []);
+
+  const handleClose = () => setSelectedRecipe(null);
+  const handleShow = (recipeId) => setSelectedRecipe(recipeId);
 
   const arrayNum = [];
   const arrayNum2 = [];
@@ -44,40 +50,152 @@ function Carosello() {
 
   return (
     <>
-      <Container className="d-flex justify-content-center">
-        <div>
+      {!localStorage.getItem("loginKey") ? (
+        <Container className="d-flex justify-content-center">
           <div>
-            <img src={data[arrayNum2[0]].immagine} alt="" />
+            <div>
+              <img
+                onClick={() => forceLogin()}
+                src={data[arrayNum2[0]].immagine}
+                alt=""
+                className="icon"
+              />
+            </div>
+            <div>
+              <img
+                onClick={() => forceLogin()}
+                src={data[arrayNum2[1]].immagine}
+                alt=""
+                className="icon"
+              />
+            </div>
           </div>
+          <Carousel className="carosello">
+            {arrayNum.map((num) => {
+              return (
+                <Carousel.Item>
+                  <img
+                    onClick={() => forceLogin()}
+                    className="d-block w-100 icon"
+                    src={data[num].immagine}
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+                    <h3>{data[num].nome}</h3>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              );
+            })}
+          </Carousel>
           <div>
-            <img src={data[arrayNum2[1]].immagine} alt="" />
+            <div>
+              <img
+                onClick={() => forceLogin()}
+                src={data[arrayNum2[2]].immagine}
+                alt=""
+                className="icon"
+              />
+            </div>
+            <div>
+              <img
+                onClick={() => forceLogin()}
+                src={data[arrayNum2[3]].immagine}
+                alt=""
+                className="icon"
+              />
+            </div>
           </div>
-        </div>
-        <Carousel className="carosello">
-          {arrayNum.map((num) => {
-            return (
-              <Carousel.Item >
-                <img
-                  className="d-block w-100"
-                  src={data[num].immagine}
-                  alt="First slide"
-                />
-                <Carousel.Caption>
-                  <h3>{data[num].nome}</h3>
-                </Carousel.Caption>
-              </Carousel.Item>
-            );
-          })}
-        </Carousel>
-        <div>
+        </Container>
+      ) : (
+        <Container className="d-flex justify-content-center">
           <div>
-            <img src={data[arrayNum2[2]].immagine} alt="" />
+            <div>
+              <img
+                onClick={() => handleShow(data[arrayNum2[0]])}
+                src={data[arrayNum2[0]].immagine}
+                alt=""
+                className="icon"
+              />
+            </div>
+            <div>
+              <img
+                onClick={() => handleShow(data[arrayNum2[1]])}
+                src={data[arrayNum2[1]].immagine}
+                alt=""
+                className="icon"
+              />
+            </div>
           </div>
+          <Carousel className="carosello">
+            {arrayNum.map((num) => {
+              return (
+                <Carousel.Item>
+                  <img
+                    onClick={() => handleShow(data[num])}
+                    className="d-block w-100 icon"
+                    src={data[num].immagine}
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+                    <h3>{data[num].nome}</h3>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              );
+            })}
+          </Carousel>
           <div>
-            <img src={data[arrayNum2[3]].immagine} alt="" />
+            <div>
+              <img
+                onClick={() => handleShow(data[arrayNum2[2]])}
+                src={data[arrayNum2[2]].immagine}
+                alt=""
+                className="icon"
+              />
+            </div>
+            <div>
+              <img
+                onClick={() => handleShow(data[arrayNum2[3]])}
+                src={data[arrayNum2[3]].immagine}
+                alt=""
+                className="icon"
+              />
+            </div>
           </div>
-        </div>
-      </Container>
+        </Container>
+      )}
+
+      {selectedRecipe && (
+        <Modal show={true} onHide={handleClose} className="modalSingleRecipe">
+          <Modal.Header closeButton>
+            <Modal.Title>{selectedRecipe.nome}</Modal.Title>
+          </Modal.Header>
+          <Modal.Body className="">
+            <div className="d-flex mb-3">
+              <div>
+                <div className="mx-3">
+                  <img src={selectedRecipe.immagine} alt="" />
+                </div>
+              </div>
+              <div>
+                <div className="ingredients mb-1">Ingredienti:</div>
+                {selectedRecipe.ingredienti.map((ingredient, index) => (
+                  <div className="ms-2 " key={index}>
+                    - {ingredient}
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="ms-3">
+              <div>{selectedRecipe.descrizione_grande}</div>
+            </div>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleClose}>
+              Torna indietro
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      )}
     </>
   );
 }

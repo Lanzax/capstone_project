@@ -255,3 +255,7 @@ nav {
   font-weight: bold;
   background-color: orange !important;
 }
+.ingredients p{
+  padding: 0 !important;
+  margin: 0 !important;
+}

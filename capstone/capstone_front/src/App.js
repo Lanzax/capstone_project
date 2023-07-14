@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter>
       <Provider store={store}>
         <body>
-          <MyNav />
+          <MyNav/>
           <Routes>
             <Route
               path="/"
@@ -30,7 +30,7 @@ function App() {
               path="/menu"
               element={
                 <>
-                  <MyMenu/>
+                  <MyMenu />
                 </>
               }
             />
@@ -38,6 +38,7 @@ function App() {
               path="/myrecipe"
               element={
                 <>
+                  <LocalRecipe />
                 </>
               }
             />
@@ -52,7 +53,7 @@ function App() {
               }
             />
           </Routes>
-          <MyFooter />
+          <MyFooter id="footer" />
         </body>
       </Provider>
     </BrowserRouter>
